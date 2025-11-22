@@ -1,0 +1,29 @@
+{
+  "name": "atividade04ppi",
+  "version": "1.0.0",
+  "description": "Uso de cookies e sessão",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogmaju/Atividade04PPI.git"
+  },
+  "keywords": [
+    "javascrit",
+    "nodejs",
+    "express"
+  ],
+  "author": "Maria Julia Orbolato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ogmaju/Atividade04PPI/issues"
+  },
+  "homepage": "https://github.com/ogmaju/Atividade04PPI#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
