@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/ogmaju/Atividade04PPI#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "body-parser": "^2.2.1",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2"
   }
 }

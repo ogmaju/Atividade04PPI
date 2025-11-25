@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+
+    <h2>Cadastro de Produtos</h2>
+
+    <form method="POST" action="/produtos">
+        <p>Código de Barras:
+            <input type="text" name="codigo" required>
+        </p>
+
+        <p>Descrição:
+            <input type="text" name="descricao" required>
+        </p>
+
+        <p>Preço de Custo:
+            <input type="number" step="0.01" name="precoCusto" required>
+        </p>
+
+        <p>Preço de Venda:
+            <input type="number" step="0.01" name="precoVenda" required>
+        </p>
+
+        <p>Data de Validade:
+            <input type="date" name="validade" required>
+        </p>
+
+        <p>Quantidade em Estoque:
+            <input type="number" name="estoque" required>
+        </p>
+
+        <p>Nome do Fabricante:
+            <input type="text" name="fabricante" required>
+        </p>
+
+        <button type="submit">Salvar Produto</button>
+    </form>
+
+    <br>
+    <a href="/">Voltar ao Menu</a>
+
+</body>
+</html>
